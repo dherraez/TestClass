@@ -64,8 +64,8 @@ Order="Proyecto_Dia24_Launch_T01__*delimiter*__Login_T02"
 [StateManagement]
 LastReplayStatus=3
 [ActiveReplay]
-LastReplayedRunName=result1
-ActiveRunName=result1
+LastReplayedRunName=
+ActiveRunName=
 [Transactions]
 Proyecto_Dia24_Launch_T01=
 Login_T02=
