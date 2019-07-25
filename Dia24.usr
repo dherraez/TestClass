@@ -1,0 +1,73 @@
+[General]
+Type=Multi
+DefaultCfg=default.cfg
+ParameterFile=Dia24.prm
+GlobalParameterFile=
+NewFunctionHeader=1
+RunType=cci
+ActionLogicExt=action_logic
+LastActiveAction=Action
+MajorVersion=12
+MinorVersion=53
+ActiveTypes=QTWeb
+GenerateTypes=QTWeb
+AdditionalTypes=QTWeb
+DevelopTool=Vugen
+LastModifyVer=12.53.0.1203
+ParamLeftBrace={
+ParamRightBrace=}
+ScriptLanguage=C
+LastCodeGenerationVer=12.53.0.1203
+DisableRegenerate=0
+Description=
+ScriptLocale=es-ES
+[Actions]
+vuser_init=vuser_init.c
+Login=Login.c
+Action1=Action1.c
+Action2=Action2.c
+vuser_end=vuser_end.c
+[RunLogicFiles]
+Default Profile=default.usp
+[VuserProfiles]
+Profiles=Default Profile
+[CfgFiles]
+Default Profile=default.cfg
+[ExtraFiles]
+globals.h=
+[Modified Actions]
+vuser_init=0
+Login=1
+Action1=0
+Action2=0
+vuser_end=0
+[Recorded Actions]
+vuser_init=0
+Login=1
+Action1=0
+Action2=0
+vuser_end=0
+[Replayed Actions]
+vuser_init=1
+Login=1
+Action1=1
+Action2=1
+vuser_end=1
+[Interpreters]
+vuser_init=cci
+Login=cci
+Action1=cci
+Action2=cci
+vuser_end=cci
+[TransactionsOrder]
+Order="Proyecto_Dia24_Launch_T01__*delimiter*__Login_T02"
+[StateManagement]
+LastReplayStatus=3
+[ActiveReplay]
+LastReplayedRunName=result1
+ActiveRunName=result1
+[Transactions]
+Proyecto_Dia24_Launch_T01=
+Login_T02=
+[Rendezvous]
+Launch_Rendezvous=
